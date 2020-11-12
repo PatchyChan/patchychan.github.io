@@ -1,10 +1,11 @@
 var origintitle = document.title
 
 document.addEventListener('visibilitychange', function() {
-    if (document.visibilityState=='hidden') {//切离该页面时执行
+    if (document.visibilityState=='hidden') {
       document.title = "UwU"   
     } 
-    else if(document.visibilityState=='visible') {//切换到该页面时执行
+    else if(document.visibilityState=='visible') {
       document.title = origintitle
     }
-});
+  }
+);
