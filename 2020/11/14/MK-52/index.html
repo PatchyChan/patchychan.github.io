@@ -1,0 +1,495 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=&#34;dark&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/patchychan.github.io/null">
+  <link rel="icon" type="image/png" href="/patchychan.github.io/null">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="KagurazakaDV">
+  <meta name="keywords" content="">
+  <title>Quick View of ЭЛЕКТРОНИКА МК-52 Part-1 - Loft of The Library</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/patchychan.github.io/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+    
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/patchychan.github.io/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/patchychan.github.io/js/utils.js" ></script>
+  <script  src="/patchychan.github.io/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  <header style="height: 40vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/patchychan.github.io/">&nbsp;<strong>Loft of The Library</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/patchychan.github.io/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/patchychan.github.io/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/patchychan.github.io/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/patchychan.github.io/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/patchychan.github.io/links/">
+                <i class="iconfont icon-link-fill"></i>
+                Links
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner intro-2" id="background" parallax=true
+         style="background: url('/patchychan.github.io/image/banner.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.4)">
+          <div class="container page-header text-center fade-in-up">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      KagurazakaDV
+    </span>
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2020-11-14 21:44" pubdate>
+        November 14, 2020 pm
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      881 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      10
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto" id="post">
+            <!-- SEO header -->
+            <h1 style="display: none">Quick View of ЭЛЕКТРОНИКА МК-52 Part-1</h1>
+            
+            <div class="markdown-body" id="post-body">
+              <h1 id="Quick-View-of-ЭЛЕКТРОНИКА-МК-52-Part-1"><a href="#Quick-View-of-ЭЛЕКТРОНИКА-МК-52-Part-1" class="headerlink" title="Quick View of ЭЛЕКТРОНИКА МК-52 Part-1"></a>Quick View of ЭЛЕКТРОНИКА МК-52 Part-1</h1><h2 id="苏联时期的RPN可编程电子计算器"><a href="#苏联时期的RPN可编程电子计算器" class="headerlink" title="苏联时期的RPN可编程电子计算器"></a>苏联时期的RPN可编程电子计算器</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>ЭЛЕКТРОНИКА МК-52是一台苏联在1983~1992年间被生产的RPN可编程计算器,发布时期的价格为115卢布，属于苏联生产的第三代可编程计算器。МК-52的功能与同时期的МК-61基本相同，但是它拥有一个非易失性电可擦可编程只读存储器（non-volatile EEPROM）。МК-52是唯一已知的内部存储形式为EEPROM的计算器。МК-52与МК-61的编程语言和功能是早期МК-54、B3-34和B3-21等电子计算器的升级版本，同时，就像许多苏联时期的计算器一样，МК-52的许多功能是没有写在文档中的。在1988年，МК-52随着联盟TM-7飞船升空，用以在机载计算机故障的情况下计算降落轨迹。</p>
+<h3 id="拆解"><a href="#拆解" class="headerlink" title="拆解"></a>拆解</h3><p>我在协助<a target="_blank" rel="noopener" href="https://weibo.com/pichuworks?topnav=1&wvr=6&topsug=1&is_all=1">@橘猫丘丘w</a> 搬家时从他那里获得了这台计算器。<br><img src="MK52带盖.JPG" srcset="/patchychan.github.io/img/loading.gif"> </p>
+<p>这台计算器的外观看起来比较完美，显示器使用的是VFD，看起来非常有年代感。<br><img src="MK52正面.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="overview"><br><img src="MK52VFD点亮.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="VFD"><br><img src="MK52键盘.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="Keyboard"> </p>
+<p>后面左侧是电源插口，可以插入附送的БП2-3型电源适配器来供电。<br><img src="Power.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="Power"> </p>
+<p>БП2-3的标准工作电压是220V，50Hz，所以不用担心电源转换的问题，在这个电压下它能提供大约6V的工作电压。<br><img src="БП2-3.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="БП2-3"> </p>
+<p>或者也可以在底部的电池仓塞入4节AA电池来给计算器供电。<br><img src="背部电池.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="Battery"></p>
+<p>计算器的背部有一些挡板，打开后里面是扩展插槽，可以插入外接的内存卡等，甚至是游戏卡。<br><img src="扩展槽.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="扩展槽"> </p>
+<p>底部只有两颗螺丝固定，很容易就打开了。<br>电路板的没有阻焊层，所有的走线都是裸露的。<br><img src="PCB正.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="PCB"> </p>
+<p>DC-DC模块，是插在主电路板上面的，用来驱动VFD。<br><img src="DC-DC(2).JPG" srcset="/patchychan.github.io/img/loading.gif" alt="DC-DC"><br><img src="DC-DC.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="DC-DC"> </p>
+<p>EEPROM芯片，型号是KP1601PP1，苏联货，有1k的内存。<br><img src="KP1601PP1.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="KP1601PP1"> </p>
+<p>к561ла7，是逻辑与门。<br><img src="к561ла7.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="к561ла7"> </p>
+<p>其余的芯片没有丝印，并不知道具体的型号，封装也是少见的样式。<br><img src="不知名芯片(1).JPG" srcset="/patchychan.github.io/img/loading.gif" alt="unkown chip"><br><img src="不知名芯片(2).JPG" srcset="/patchychan.github.io/img/loading.gif" alt="unkown chip"> </p>
+<p>拧下三颗固定电路板的螺丝，就可以拆下电路板了。<br><img src="PCB背.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="Back of PCB"> </p>
+<p>VFD显示管，相比液晶管看起来确实要脆弱不少。<br><img src="VFD.JPG" srcset="/patchychan.github.io/img/loading.gif" alt="VFD"> </p>
+<p>我太弱了，拆不下固定着的键盘。</p>
+<h3 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h3><h4 id="数值运算"><a href="#数值运算" class="headerlink" title="数值运算"></a>数值运算</h4><p>由于是RPN计算机，所以在数的输入上与当前常见的计算器有所不同。<br>比如我们要计算3+5=8，通常我们会依次按下<kbd>3</kbd><kbd>+</kbd><kbd>5</kbd><kbd>=</kbd>,就会显示正确结果8。<br>在逆波兰表达式(RPN)中,3 + 5被记为3 5 +,因此这里会依次输入<kbd>3</kbd><kbd>B↑</kbd><kbd>5</kbd><kbd>+</kbd>,此时计算器显示结果8。<br>这里有一个按键<kbd>B↑</kbd>,它的操作是入栈。因为在计算机中RPN是使用栈来实现的。先将操作数入栈，遇到操作符时取出栈顶的两个元素进行运算，再将结果入栈，这样栈顶就是最后的结果。RPN记法的一个好处是不需要括号表示优先级。<br>МК-52的栈最多能存储4个操作数，向后继续输入操作数会将之前的操作数挤出去，所以要注意。</p>
+<h4 id="布尔运算"><a href="#布尔运算" class="headerlink" title="布尔运算"></a>布尔运算</h4><p>这台МК-52具有进行布尔运算的功能，输入、输出均为16进制形式，输入时以“8.”作为开头输入。但是我并未发现输入十六进制中A-F的方法，但是输出时，-,L,C,Г,E,空白，分别对应A-F。</p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/patchychan.github.io/categories/tech/">tech</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/patchychan.github.io/tags/USSR/">USSR</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/patchychan.github.io/2020/01/07/2020.1/">
+                        <span class="hidden-mobile">随记（2020.1</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <span>Powered by </span> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <span> and Theme by </span> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/patchychan.github.io/js/debouncer.js" ></script>
+<script  src="/patchychan.github.io/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/patchychan.github.io/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/patchychan.github.io/js/clipboard-use.js" ></script>
+
+
+
+
+
+  
+<script src="/patchychan.github.io/javascript/changetitle.js"></script>
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '#post-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Quick View of ЭЛЕКТРОНИКА МК-52 Part-1&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/patchychan.github.io/js/local-search.js" ></script>
+  <script>
+    var path = "/patchychan.github.io/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
