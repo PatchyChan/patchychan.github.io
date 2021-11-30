@@ -19,10 +19,23 @@
   <meta name="description" content="">
   <meta name="author" content="Patchy Chan">
   <meta name="keywords" content="">
-  <title>Archives - Loft of The Library</title>
+  <title>DV&#39;s imperial units - Loft of The Library</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/patchychan.github.io/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+    
+  
+
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -203,22 +216,14 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">10 posts in total.</p>
-  <hr>
-  
-    
-      
-      <p class="h5">2019</p>
-    
-    <a href="/patchychan.github.io/posts/27505/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">2019.10)关于iPad Pro 2018断触事件的简要记录</span>
-      <time style="float: right;">10-16</time>
-    </a>
-  
+<div class="page-content">
+  <p><button id='length'>Generate</button></p>
+<div id='unit_name'></div>
+
+<div id='unit_contents'></div>
+
+<script src="index.js"></script>
 </div>
-
-
 
               </div>
             </div>
@@ -310,7 +315,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Archive&nbsp;",
+        "DV's imperial units&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -324,6 +329,21 @@
   </script>
 
 
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
 
 
 
