@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Nintendo Switch版VA-11 HALL—A 赛博朋克酒保行动 版本冲突记录</title>
+    <link href="/patchychan.github.io/posts/23477/"/>
+    <url>/patchychan.github.io/posts/23477/</url>
+    
+    <content type="html"><![CDATA[<h1 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h1><p>买了NS后出于情怀原因再次购买了数字版的VA-11 HALL-A(下文称其为酒保行动)并且玩了一遍<br>一段时间后看到Limit Run会限量发行该游戏的实体版于是我又买了一遍实体版，不但买了，还手欠把包装拆了；不但把包装拆了，还手欠把卡带插进了机器里。明明那个时候已经有电子版了就算拆包看看就得了真没必要把卡带塞机器里（这种情怀产品摆那上三柱香供着就得了我那个时候到底在干什么）。这一插就出问题了，因为卡带里游戏版本号是1.0.2，而数字版最新也就到1.0.1并且到现在都没有更新过，就连老任自己的服务器里也只有1.0.1版本提供给购买了数字版的玩家下载。所以1.0.2版本有且仅存在于卡带里。但是插进机器里后，系统就知道了这个游戏有1.0.2版本的存在，所以导致不插卡带尝试启动数字版时会触发系统提示要求更新到最新版本</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Event Record</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>杂文收集</title>
     <link href="/patchychan.github.io/posts/42316/"/>
     <url>/patchychan.github.io/posts/42316/</url>

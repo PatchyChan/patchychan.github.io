@@ -19,7 +19,7 @@
   <meta name="description" content="">
   <meta name="author" content="Patchy Chan">
   <meta name="keywords" content="">
-  <title>Tags - Transgender - Loft of The Library</title>
+  <title>Loft of The Library</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -45,7 +45,7 @@
 
 
 <body>
-  <header style="height: 40vh;">
+  <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -177,7 +177,7 @@
          style="background: url('/patchychan.github.io/image/banner.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.7)">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.25)">
           <div class="container page-header text-center fade-in-up">
             <span class="h2" id="subtitle">
               
@@ -186,6 +186,10 @@
             
           </div>
 
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
           
         </div>
       </div>
@@ -196,27 +200,69 @@
     
       <div class="container nopadding-md">
         <div class="py-5" id="board"
-          >
+          style=margin-top:0>
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">1 posts in total.</p>
-  <hr>
-  
+
+  <div class="row mx-auto index-card">
     
-      
-      <p class="h5">2021</p>
     
-    <a href="/patchychan.github.io/posts/42316/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">杂文收集</span>
-      <time style="float: right;">11-30</time>
-    </a>
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/patchychan.github.io/posts/5960/">随记（2019.03</a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/patchychan.github.io/posts/5960/">
+          
+          
+            
+          
+          
+  早上在教学区楼道口里遇见我现同桌的前同桌。想了想还是用女字旁的那个“她”来称呼比较好，在我和她为数不多的沟通中她表达出类MTF的性别认知情况，觉得自己是个女孩子。但是目前却没有任何服用激素/了解相关情况开始往跨性别那步开始走。而今天早上看到作为艺考生回学校的她更是让我感到……惊异，实在是因为我没有别的形容词可用的缘故。她已经完全像是一个女孩子，不去在意细节的话没有任何问题，如果不是我认出来她
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2019-03-15 08:00" pubdate>
+              2019-03-15
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/patchychan.github.io/categories/Diary/">Diary</a>
+            
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/patchychan.github.io/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/patchychan.github.io/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
   
-</div>
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
 
 
 
@@ -336,7 +382,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Tag - Transgender&nbsp;",
+        "Stay awake, stay ready.&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
