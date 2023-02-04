@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Hello World</title>
+    <link href="/patchychan.github.io/posts/16107/"/>
+    <url>/patchychan.github.io/posts/16107/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Nintendo Switch版VA-11 HALL—A 赛博朋克酒保行动 版本冲突记录</title>
     <link href="/patchychan.github.io/posts/23477/"/>
     <url>/patchychan.github.io/posts/23477/</url>
@@ -138,6 +151,19 @@
   
   
   <entry>
+    <title>test article</title>
+    <link href="/patchychan.github.io/posts/62770/"/>
+    <url>/patchychan.github.io/posts/62770/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>随记（2020.1</title>
     <link href="/patchychan.github.io/posts/3607/"/>
     <url>/patchychan.github.io/posts/3607/</url>
@@ -180,7 +206,7 @@
     <link href="/patchychan.github.io/posts/27505/"/>
     <url>/patchychan.github.io/posts/27505/</url>
     
-    <content type="html"><![CDATA[<p>起因是这样的</p> <p>大概在国庆节前后一段时间，我在玩Arcaea游戏中的Rugie曲目，FTR难度时，中间会稳定发生一次持续时间极短的屏幕断触现象。但是在Arcaea中显得极其明显，该游戏的Arc(弧)如果检测到手指离开屏幕再重新按下会直接闪红。因此那次断触会直接让屏幕中的两条Arc瞬间爆红。</p><p>最开始我认为是设备品控原因，预约了Apple五角场的Genius Bar屏幕维修服务。到了现场后向工作人员说明了Arcaea中的判定规则，并且展示了复现屏幕断触时的游戏录屏，工作人员提出重置当前系统并重新下载游戏重新测试。进行以上操作后当着工作人员的面重新打了一遍Rugie FTR仍然还是出现了同样的断触问题，工作人员提出直接换机。由于我认为是品控问题所以同意了，在工作人员核验了购买发票上的设备序列码和机器设备序列码吻合后交给我一台全新的相同配置官换机。</p><p>事情还没有解决，换机后使用设备重新游玩该谱面，仍然出现了完全一致的断触问题。此时我开始向其他拥有相同设备的玩家讨论是否他们也有这个问题并寻求建议。有玩家(@PurelyWhite)提出将屏幕旋转180度重新测试。（如果是设备内部结构问题使手指在经过屏幕上某个/多个特定点的时候发生断触，该方案可以解决问题）但是该解决方案仍然无效，同时也尝试了调整游戏内音乐延迟以判断是否为软件问题，同样断触。同时我也怀疑是系统问题，将系统由iPadOS 13.1.2升级至iPadOS 13.2 beta2重新测试，并没有解决问题。</p><p>后续也致电过Apple技术服务，服务人员表示可能是系统问题，并告知在我测试iPadOS 13.2 beta2后的当晚他们推送了13.1.3的OTA更新并建议我回退并尝试，此方案并没有解决问题。</p><p>隔天自己开始思考是不是保护壳的问题。个人使用的保护壳为UAG for iPad Pro（11inch）款，扬声器两侧各有包边，具有良好的保护性能，但是包边可能对屏幕具有相比Smart Cover来说较强的相互作用力。我把保护壳卸了换成第三方仿制的Smart Cover重新游玩谱面测试，经过反复游玩测试5次，只有第一次出现了位置不同但发生方式相同的断触问题，后续的4次测试中均能正常游玩。该问题宣告解决（可能只是暂时的）。</p><p>PS：最开始去Genius Bar时工作人员使用他的设备帮助我重置系统时要求我将使用的保护套卸除，裸机交给他操作，但是在后续游玩时我装回了保护套，因为摄像头凸起不说，裸机在桌面上的摩擦力实在太低容易造成打滑不利于游玩。如果此时工作人员仍然要求我自己卸除保护套使用问题有可能得到解决，并且我将不会得到换机以及重置保修期限的服务。但单就本次前往Genius Bar申请保修服务的过程中，工作人员的做法令人满意且符合规范（除了那个为我服务的工作人员拿着一根lightning线怼了半天USB-C口后发现iPad Pro 2018的接口为USB-C的尴尬情况）。</p><p>Update：经过几天游玩测试后仍有随机断触现象，并且不限于Rugie FTR谱面，体感发生概率较低，大部分情况仍然可以正常游玩，还是想给阿果的设计一个差评（？</p><p>Update2：断触问题仍然持续，由于游戏机制原因在两条Arc同时存在时尤为明显，也有小部分单Arc闪红的情况但并未Lost的情况，因为近期个人事务较多暂时没办法抽出时间来好好测试（就算有时间可能也懒？）</p><p>设备：iPad Pro 2018 (11inch) 64GB Wi-Fi版 (A1980)</p><p>系统：iPadOS 13.1.2、13.1.3以及13.2 beta2</p>]]></content>
+    <content type="html"><![CDATA[<p>起因是这样的</p> <p>大概在国庆节前后一段时间，我在玩Arcaea游戏中的Rugie曲目，FTR难度时，中间会稳定发生一次持续时间极短的屏幕断触现象。但是在Arcaea中显得极其明显，该游戏的Arc(弧)如果检测到手指离开屏幕再重新按下会直接闪红。因此那次断触会直接让屏幕中的两条Arc瞬间爆红。</p><p>最开始我认为是设备品控原因，预约了Apple五角场的Genius Bar屏幕维修服务。到了现场后向工作人员说明了Arcaea中的判定规则，并且展示了复现屏幕断触时的游戏录屏，工作人员提出重置当前系统并重新下载游戏重新测试。进行以上操作后当着工作人员的面重新打了一遍Rugie FTR仍然还是出现了同样的断触问题，工作人员提出直接换机。由于我认为是品控问题所以同意了，在工作人员核验了购买发票上的设备序列码和机器设备序列码吻合后交给我一台全新的相同配置官换机。</p><p>事情还没有解决，换机后使用设备重新游玩该谱面，仍然出现了完全一致的断触问题。此时我开始向其他拥有相同设备的玩家讨论是否他们也有这个问题并寻求建议。有玩家(@PurelyWhite)提出将屏幕旋转180度重新测试。（如果是设备内部结构问题使手指在经过屏幕上某个/多个特定点的时候发生断触，该方案可以解决问题）但是该解决方案仍然无效，同时也尝试了调整游戏内音乐延迟以判断是否为软件问题，同样断触。同时我也怀疑是系统问题，将系统由iPadOS 13.1.2升级至iPadOS 13.2 beta2重新测试，并没有解决问题。</p><p>后续也致电过Apple技术服务，服务人员表示可能是系统问题，并告知在我测试iPadOS 13.2 beta2后的当晚他们推送了13.1.3的OTA更新并建议我回退并尝试，此方案并没有解决问题。</p><p>隔天自己开始思考是不是俽护壳的问题。个人使用的保护壳为UAG for iPad Pro（11inch）款，扬声器两侧各有包边，具有良好的保护性能，但是包边可能对屏幕具有相比Smart Cover来说较强的相互作用力。我把保护壳卸了换成第三方仿制的Smart Cover重新游玩谱面测试，经过反复游玩测试5次，只有第一次出现了位置不同但发生方式相同的断触问题，后续的4次测试中均能正常游玩。该问题宣告解决（可能只是暂时的）。</p><p>PS：最开始去Genius Bar时工作人员使用他的设备帮助我重置系统时要求我将使用的保护套卸除，裸机交给他操作，但是在后续游玩时我装回了保护套，因为摄像头凸起不说，裸机在桌面上的摩擦力实在太低容易造成打滑不利于游玩。如果此时工作人员仍然要求我自己卸除保护套使用问题有可能得到解决，并且我将不会得到换机以及重置保修期限的服务。但单就本次前往Genius Bar申请保修服务的过程中，工作人员的做法令人满意且符合规范（除了那个为我服务的工作人员拿着一根lightning线怼了半天USB-C口后发现iPad Pro 2018的接口为USB-C的尴尬情况）。</p><p>Update：经过几天游玩测试后仍有随机断触现象，并且不限于Rugie FTR谱面，体感发生概率较低，大部分情况仍然可以正常游玩，还是想给阿果的设计一个差评（？</p><p>Update2：断触问题仍然持续，由于游戏机制原因在两条Arc同时存在时尤为明显，也有小部分单Arc闪红的情况但并未Lost的情况，因为近期个人事务较多暂时没办法抽出时间来好好测试（就算有时间可能也懒？）</p><p>设备：iPad Pro 2018 (11inch) 64GB Wi-Fi版 (A1980)</p><p>系统：iPadOS 13.1.2、13.1.3以及13.2 beta2</p>]]></content>
     
     
     <categories>
